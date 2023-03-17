@@ -15,52 +15,61 @@
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/Touchup.css");
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Imports/UserBadges.css");
 @import url("https://maendisease.github.io/BetterDiscordStuff/css/bettterInvites.css");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;200;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
 /* Source */
 @import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/Ultra/Clients/betterdiscord.css");
 
+/* Work Sans and JetBrains Mono imports */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
 :root,
 .theme-dark {
-    --text-normal: #dcddde;
-    --text-muted: #4a4a52;
-    --text-link: #6e6af6;
-    --text-positive: #50dc7d;
-    --text-warning: #8d4949;
-    --text-danger: #8d4949;
-    --text-brand: #6e6af6;
-    --interactive-normal: #b9bbbe;
-    --interactive-hover: #dcddde;
-    --interactive-active: #c9ced0;
-    --interactive-muted: #4f545c;
-    --background-primary: #101014;
-    --background-secondary: #17161b;
-    --background-secondary-alt: #17161b;
-    --background-tertiary: #101014;
+    --background-primary: #16161D;
+    --background-secondary: #1F1F28;
+    --background-secondary-alt: #16161D ;
+    --background-tertiary: #16161D;
     --background-accent: #4f545c;
-    --background-floating: #17161b;
-    --modal-background: #101014;
-    --channeltextarea-background: #17161b;
-    --info-positive-text: #fff;
-    --info-warning-text: #fff;
-    --info-warning-foreground: #6e6af6;
-    --info-danger-text: #fff;
-    --info-help-text: #fff;
-    --status-warning-text: #000;
-    --background-mentioned: #6f6af62c;
+    --background-floating: #17161b; 
+    --modal-background: #16161D;
+    --channeltextarea-background: #1F1F28;
+    
+    /* haven't edited these yet*/
+    --background-mentioned: #6f6af62c; 
     --background-mentioned-hover: #6f6af615;
     --background-message-hover: rgba(4, 4, 5, 0.07);
-    --scrollbar-auto-thumb: #6e6af6;
-    --brand-experiment: #6e6af6;
-    --brand-experiment-hover: #6f6af64d;
-    --brand-experiment-560: #6e6af6;
-    --channels-default: #4a4a52;
-    --selected-indicator: #97ffa5;
-    --hover-indicator: #ffffff;
-    --font: "Lato";
-    --code-font: "Source Code Pro";
+    
+    --text-normal: #d4d2c5;
+    --text-muted: #54546D;
+    --text-link: #76946A;
+    --text-positive: #98BB6C;
+    --text-warning: #8d4949;
+    --text-danger: #8d4949;
+    --text-brand: #957FB8;
+
+    --interactive-normal: #54546D;
+    --interactive-hover: #7E9CD8;
+    --interactive-active: #d4d2c5;
+    --interactive-muted: #54546D;
+
+    --info-positive-text: #fff;
+    --info-warning-text: #fff;
+    --info-warning-foreground: #957FB8;
+    --info-danger-text: #fff;
+    --info-help-text: #fff;
+    --status-warning-text: #000; 
+
+    --channels-default: #54546D;
+    --selected-indicator: #98BB6C;
+    --hover-indicator: #DCD7BA;
+
+    --brand-experiment: #98BB6C;
+    --brand-experiment-hover: #7E9CD84d;
+    --brand-experiment-560: #957FB8;
+    --scrollbar-auto-thumb: #957FB8;
+    --font: "Work Sans";
+    --code-font:  "JetBrains Mono";
     --boost-bar: none;
 }
 
-/* Made By The Commie Axolotl */
+/* original by The Commie Axolotl */
+/* edited by alex wei */
